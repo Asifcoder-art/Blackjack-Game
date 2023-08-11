@@ -1,0 +1,75 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    background-color: green;
+}
+
+span{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+button{
+    padding: 5px 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: grey;
+    
+}
+
+.div-1{
+    display: flex;
+    gap: 30px;
+    
+}
+.div-1 button{
+    padding: 5px 30px;
+}
+h1{
+    font-weight: bolder;
+    color: yellow;
+}
+
+button:hover{
+    background-color: coral;
+}
+
+#save-btn{
+    margin-top: 10px;
+    background-color: green;
+
+}
+#save-btn:hover{
+    background-color: darkgreen;
+}
+
+#reset-btn{
+    background-color: red;
+    margin-top: 10px;
+
+}
+#divide{
+    margin-top: 30px;
+}
+
+.span-flex{
+    display: flex;
+    gap: 15px;
+}
+
+span{
+    text-decoration: underline;
+
+}
+
+p{
+    color: #ffff;
+    font-style: italic;
+    font-size: medium;
+}
+
+#btn-new{
+    margin-top: 10px;
+}
